@@ -2,6 +2,8 @@
 
 This is an example package to demonstrate strange node-pty behavior.
 
+First run `npm install` to set up dependencies.
+
 On MacOS:
 
 ```
