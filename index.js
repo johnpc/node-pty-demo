@@ -14,7 +14,7 @@ ptyProcess.onData((data) => {
   process.stdout.write(data);
   if (data.includes("Enter")) {
     console.log("pressing enter");
-    ptyProcess.write("\n");
+    ptyProcess.write(os.EOL);
   }
 });
 
